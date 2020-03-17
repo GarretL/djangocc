@@ -2,6 +2,14 @@
 
 {% block title %} Cheeses: {{cheese.name }}{% endblock %}
 
+<p>
+    <a class="btn btn-primary"
+    href="{% url 'cheese:update' cheese.slug %}"
+    role="button">
+        Update
+    </a>
+</p>
+
 {% block content %}
 
 <h2> {{ cheese.name }}</h2>
