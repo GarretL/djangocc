@@ -73,6 +73,7 @@ DJANGO_APPS = [
 ]
 THIRD_PARTY_APPS = [
     "crispy_forms",
+    "django_countries",
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
