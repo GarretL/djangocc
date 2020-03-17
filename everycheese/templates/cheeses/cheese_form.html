@@ -2,7 +2,7 @@
 {% load crispy_forms_tags %}
 
 
-{% block title %}{{view.action|defaut:"Add"}} Cheese{% endblock %}
+{% block title %}{{view.action|default:"Add"}} Cheese{% endblock %}
 
 {% block content %}
 {% with action=view.action|default:"Add" %}
